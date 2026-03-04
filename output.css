@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="clothing, jacket, style, fancy, pants, shop, t-shirt">
+    <meta name="description"
+        content="Buy and shope sustainable, high quality hoodies, pants, jackets, and more at Shafii.">
+    <title>Shafii</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="icon" href="assets/logo.svg">
+</head>
+<body class="bg-slate-50">
+    <header>
+        <nav class="fixed w-full border-gray-200 bg-slate-200 shadow-md dark:bg-gray-900 dark:border-gray-700 z-10">
+            <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+                <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+                    <span class="self-center text-3xl font-semibold whitespace-nowrap dark:text-white font-stylescript">Shafii</span>
+                </a>
+        <button id="menu-btn" type="button"
+            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden 
+                hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 
+                dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
+            <span class="sr-only">Open main menu</span>
+            <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M1 1h15M1 7h15M1 13h15">
+                </svg>
+        </button>
+        <div id="navbar-solid-bg" class="hidden w-full md:block md:w-auto">
+            <ul
+                class="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse 
+                md:flex-row md:mt-0 md:border-0 md:bg-transparent 
+                dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
+                <li><a href="#home"
+                        class="block py-2 px-3 md:p-0 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent 
+                    md:border-0 md:hover:text-blue-700 dark:text-white
+                    md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white 
+                    md:dark:hover:bg-transparent">Home</a></li>
+                <li><a href="#products"
+                class="block py-2 px-3 md:p-0 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent 
+                    md:border-0 md:hover:text-blue-700 dark:text-white 
+                    md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white 
+                    md:dark:hover:bg-transparent">Products</a></li>
+                <li><a href="#blogs"
+                class="block py-2 px-3 md:p-0 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent 
+                    md:border-0 md:hover:text-blue-700 dark:text-white 
+                    md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white 
+                    md:dark:hover:bg-transparent">Blogs</a></li>
+                <li><a href="#shots"
+                class="block py-2 px-3 md:p-0 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent 
+                    md:border-0 md:hover:text-blue-700 dark:text-white 
+                    md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white 
+                    md:dark:hover:bg-transparent">Shots</a></li>
+                <li><a href="#contact"
+                class="block py-2 px-3 md:p-0 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent 
+                    md:border-0 md:hover:text-blue-700 dark:text-white 
+                    md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white 
+                    md:dark:hover:bg-transparent">Contact</a></li>
+            </ul>
+        </div>
+            </div>
+        </nav>
+        <div class="flex justify-center p-25 sm:p-50 fade-in" id="home">
+            <div class="h-150 text-center">
+                <h1 class="text-5xl p-2 md:p-0 mb-10">Wear the Calm. <span class="font-stylescript">Move with the <span
+                        class="text-gradient">Flow.</span></span></h1>
+                <p class="font-light py-3 md:py-20 m-5">Shafii creates timeless, sustainable apparel inspired by
+                the balance between motion and stillness. Designed for those who live simply, move freely, and value
+                quality.</p>
+                <button
+                class="bg-blue-700 text-blue-50 w-50 rounded py-4 px-5 m-10 hover:scale-103 shadow-md hover:shadow-lg hover:bg-blue-800 transition-all cursor-pointer">Shop
+                the Collection</button>
+                <button
+                class="bg-slate-700 text-slate-50 w-50 rounded py-4 px-5 m-10 hover:scale-103 shadow-md hover:shadow-lg hover:bg-slate-800 transition-all cursor-pointer">Discover
+                Our Story</button>
+                <a href="#about"
+                class="py-4 px-5 underline underline-offset-4 text-gray-900 hover:scale-102 hover:text-gray-950 cursor-pointer">About
+                Us</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 text-gray-900 mt-10 mx-5" id="products">
+            <h2 class="font-stylescript text-3xl border-l-4 p-5 text-nowrap border-sky-400 ml-0 sm:ml-5 font-bold col-span-full">Featured
+                Collection</h2>
+            <div class="max-w-sm h-fit bg-white rounded-lg shadow-sm hover:shadow-xl dark:bg-slate-800">
+                <img class="rounded-t-lg" src="assets/pexels-anna-nekrashevich-8532616.webp"
+                    alt="drift tee t-shirt hanging">
+                <div class="p-5">
+                    <h3 class="mb-2 text-2xl font-bold tracking-tight text-center text-gray-900 dark:text-white">Drift
+                        Tee</h3>
+                    <span class="font-bold text-lg text-center mt-5 text-white">$18.00</span>
+                    <p class="mb-3 mt-5 font-normal text-gray-700 dark:text-gray-400">100% organic cotton, relaxed fit,
+                        ocean-inspired tones.</p>
+                    <a href="#"
+                        class="cursor-pointer inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-6 mr-2">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                        </svg>Buy
+                    </a>
+                </div>
+            </div>
+            <div class="max-w-sm bg-white rounded-lg shadow-sm hover:shadow-xl dark:bg-slate-800">
+                <img class="rounded-t-lg" src="assets/pexels-artempodrez-6786666.webp"
+                    alt="a brown-like oversized hoodie being held from the top">
+                <div class="p-5">
+                    <h3 class="mb-2 text-2xl font-bold tracking-tight text-center text-gray-900 dark:text-white">Tide
+                        Hoodie</h3>
+                    <span class="font-bold text-lg text-center mt-5 text-white">$13.50</span>
+                    <p class="mb-3 mt-5 font-normal text-gray-700 dark:text-gray-400">Soft, oversized comfort with bold
+                        wave-inspired graphics - made to move with the city and the streets.</p>
+                    <a href="#"
+                        class="cursor-pointer inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-6 mr-2">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                        </svg>
+                        Buy
+                    </a>
+                </div>
+            </div>
+            <div class="max-w-sm h-fit bg-white rounded-lg shadow-sm hover:shadow-xl dark:bg-slate-800">
+                <img class="rounded-t-lg" src="assets/pexels-marlonretratos-26964993.webp"
+                    alt="man facing down wearing cargo pants with gray background behind">
+                <div class="p-5">
+                    <h3 class="mb-2 text-2xl font-bold tracking-tight text-center text-gray-900 dark:text-white">Cargo
+                        Pants</h3>
+                    <span class="font-bold text-lg text-center mt-5 text-white">$20.00</span>
+                    <p class="mb-3 mt-5 font-normal text-gray-700 dark:text-gray-400">Built for comfort, with an edge
+                        that fits any scene.</p>
+                    <a href="#"
+                        class="cursor-pointer inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-6 mr-2">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                        </svg>
+                        Buy
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 mt-10 mx-5 text-gray-900 gap-10" id="blogs">
+            <h2 class="font-stylescript text-3xl border-l-4 p-5 text-nowrap border-sky-400 ml-0 sm:ml-5  font-bold col-span-full">Newest Blogs
+            </h2>
+            <article class="max-w-sm bg-white rounded-lg shadow-sm hover:shadow-xl dark:bg-slate-800">
+                <img class="rounded-t-lg" src="assets/brandon-atchison-ulWqxGT5ckQ-unsplash.webp"
+                    alt="woman crossing the street while holding a white bag">
+                <div class="p-5">
+                    <h3 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">From Surf to
+                        Street: How Flow Became Fashion</h3>
+                    <span class="font-mono bg-white rounded-2xl text-black px-2 py-1">12/10/2025</span>
+                    <p class="mb-3 mt-5 font-normal text-gray-700 dark:text-gray-400">Streetwear didn’t start in the
+                        city — it started on the shore. This piece dives into how surf culture evolved into a global
+                        fashion wave, inspiring brands like Original Surfer to blend comfort, motion, and attitude.</p>
+                    <a href="#"
+                        class="cursor-pointer inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        Read more
+                        <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M1 5h12m0 0L9 1m4 4L9 9"></path>
+                        </svg>
+                    </a>
+                </div>
+            </article>
+            <article class="max-w-sm bg-white rounded-lg shadow-sm hover:shadow-xl dark:bg-slate-800">
+                <img class="rounded-t-lg" src="assets/photo-1588117260148-b47818741c74.webp"
+                    alt="stylish girl wearing sunglasses posing for the camera">
+                <div class="p-5">
+                    <h3 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Layered Up: The
+                        Streetwear Guide to All-Season Style</h3>
+                    <span class="font-mono bg-white rounded-2xl text-black px-2 py-1">6/7/2025</span>
+                    <p class="mb-3 mt-5 font-normal text-gray-700 dark:text-gray-400">From hoodies to windbreakers,
+                        mastering layers is key to owning every season. Discover how to build versatile looks that move
+                        from chill mornings to night rides — without losing your edge.</p>
+                    <a href="#"
+                        class="cursor-pointer inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        Read more
+                        <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M1 5h12m0 0L9 1m4 4L9 9"></path>
+                        </svg>
+                    </a>
+                </div>
+            </article>
+            <article class="max-w-sm bg-white rounded-lg shadow-sm hover:shadow-xl dark:bg-gray-800">
+                <img class="rounded-t-lg" src="assets/kristina-goncharova-6orJ-4BlZbU-unsplash.webp"
+                    alt="a woman facing directly to the camera while biting and holding a bag">
+                <div class="p-5">
+                    <h3 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">The New Wave: Why
+                        Minimal Design Hits Harder</h3>
+                    <span class="font-mono bg-white rounded-2xl text-black px-2 py-1">23/2/2025</span>
+                    <p class="mb-3 mt-5 font-normal text-gray-700 dark:text-gray-400">In a world full of loud prints,
+                        clean lines speak louder. Learn why simplicity and subtle design are taking over the streetwear
+                        scene, and how Original Surfer keeps that energy flowing through every drop.</p>
+                    <a href="#"
+                        class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        Read more
+                        <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M1 5h12m0 0L9 1m4 4L9 9"></path>
+                        </svg>
+                    </a>
+                </div>
+            </article>
+        </section>
+        <section class="text-gray-900 mt-10 mx-5" id="shots">
+            <h2 class="font-stylescript text-3xl border-l-4 p-5 text-nowrap border-sky-400 ml-0 sm:ml-5 mb-10 font-bold col-span-full">Shots</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="grid gap-4">
+                    <div>
+                        <img class="h-auto max-w-full rounded-lg"
+                            src="assets/gallery/tom-caillarec-ZsfoqnOvvL8-unsplash.webp"
+                            alt="man wearing black with curly hair looking at the camera">
+                    </div>
+                    <div>
+                        <img class="h-auto max-w-full rounded-lg"
+                            src="assets/gallery/alex-preyer-4omDajwebrs-unsplash.webp"
+                            alt="woman sitting on the floor wearing sunglasses posing for the photo with purple and blue lightness">
+                    </div>
+                    <div>
+                        <img class="h-auto max-w-full rounded-lg"
+                            src="assets/gallery/aliya-amangeldi-iPl9I1DAjLI-unsplash.webp"
+                            alt="woman sitting on the chair wearing green-black style posing for the camera">
+                    </div>
+                </div>
+                <div class="grid gap-4">
+                    <div>
+                        <img class="h-auto max-w-full rounded-lg"
+                            src="assets/gallery/federico-faccipieri-35jacyA02VU-unsplash.webp"
+                            alt="woman walking on a log wearing an oversized t-shirt smiling">
+                    </div>
+                    <div>
+                        <img class="h-auto max-w-full rounded-lg"
+                            src="assets/gallery/zahir-namane-PAdG-ZfZ6lM-unsplash.webp"
+                            alt="man standing wearing black formal outfit with white shoes">
+                    </div>
+                    <div>
+                        <img class="h-auto max-w-full rounded-lg"
+                            src="assets/gallery/minh-dang-k82OuKxTjQs-unsplash.webp"
+                            alt="woman wearing modern and trendy outfit posing for the camera with pink background">
+                    </div>
+                </div>
+                <div class="grid gap-4">
+                    <div>
+                        <img class="h-auto max-w-full rounded-lg"
+                            src="assets/gallery/oleg-brovchenko-7j8hVQVKTvw-unsplash.webp"
+                            alt="man wearing glasses with brown t-shirt and shoes walking on the street">
+                    </div>
+                    <div>
+                        <img class="h-auto max-w-full rounded-lg"
+                            src="assets/gallery/lucas-davies-KZRhLRd9QHk-unsplash.webp"
+                            alt="man with sunglasses sitting on the middle of the street posing with palm trees in the background">
+                    </div>
+                    <div>
+                        <img class="h-auto max-w-full rounded-lg"
+                            src="assets/gallery/sattar-kazemi-sXs20z_64A8-unsplash.webp"
+                            alt="man looking to the right wearing black outfit">
+                    </div>
+                </div>
+                <div class="grid gap-4">
+                    <div>
+                        <img class="h-auto max-w-full rounded-lg"
+                            src="assets/gallery/ali-pazani-NCVplDQafPs-unsplash.webp"
+                            alt="woman with red glasses holding down her hair posing for the camera with blue background">
+                    </div>
+                    <div>
+                        <img class="h-auto max-w-full rounded-lg"
+                            src="assets/gallery/melbin-jacob-Lou0kwYmxoE-unsplash.webp"
+                            alt="stylish woman standing wearing oversized jeans posing for the camera with light brown background">
+                    </div>
+                    <div>
+                        <img class="h-auto max-w-full rounded-lg"
+                            src="assets/gallery/daniel-adesina-femqmtfbU0s-unsplash.webp"
+                            alt="woman wearing small sized shirt wearing sunglasses and has headphones looking at the camera">
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-center m-5">
+                <button class="border py-2 px-4 cursor-pointer hover:bg-gray-200 m-10">Load More</button>
+            </div>
+        </section>
+    </main>
+    <footer class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 bg-gray-300 text-gray-900 dark:bg-slate-800 dark:text-slate-50 p-10 gap-15" id="contact">
+        <div id="about">
+            <h2 class="text-3xl font-bold">About Us</h2>
+            <p class="text-gray-900 dark:text-slate-300 mt-5">Shafii is built on motion — from the streets to the shore. We blend minimal
+                design with bold energy, creating pieces made to move wherever life flows.</p>
+            <h2 class="text-2xl mt-5 font-medium">Got a question, collab idea, or just wanna talk gear?</h2>
+            <p class="text-slate-300 mb-5">We are always listening.</p>
+            <address class="text-gray-500 dark:text-slate-400">
+                Email: support@Shafii.com<br>
+                Location: Amman, Jordan — Designed locally, worn worldwide.
+            </address>
+        </div>
+        <div class="mb-5">
+            <h2 class="text-3xl font-bold mb-5">Quick Links</h2>
+            <a href="#home" class="underline underline-offset-4 inline-block py-2 px-3 hover:bg-slate-700">Home</a>
+            <a href="#products" class="underline underline-offset-4 inline-block py-2 px-3 hover:bg-slate-700">Products</a>
+            <a href="#shots" class="underline underline-offset-4 inline-block py-2 px-3 hover:bg-slate-700">Shots</a>
+            <div class="grid gird-cols-1">
+                <h2 class="text-3xl font-bold mt-5 grid-col">Customer Support</h2>
+                <a href="#"
+                    class="underline underline-offset-4 inline-block py-2 px-3 hover:bg-slate-700 w-fit">Shipping &
+                    Returns</a>
+                <a href="#"
+                    class="underline underline-offset-4 inline-block py-2 px-3 hover:bg-slate-700 w-fit">FAQs</a>
+                <a href="#" class="underline underline-offset-4 inline-block py-2 px-3 hover:bg-slate-700 w-fit">Size
+                    Guide</a>
+                <a href="#" class="underline underline-offset-4 inline-block py-2 px-3 hover:bg-slate-700 w-fit">Order
+                    Tracking</a>
+            </div>
+        </div>
+        <div>
+            <h2 class="text-3xl font-bold mb-5">Follow Us</h2>
+            <div class="grid grid-cols-3 xl:grid-cols-6">
+                <a href="#">
+                    <img class="w-8 h-8 hover:scale-110 m-5 duration-75 transition-all"
+                        src="assets/facebook-svgrepo-com.svg" alt="our facebook">
+                </a>
+                <a href="#">
+                    <img class="w-8 h-8 hover:scale-110 m-5 duration-75 transition-all"
+                        src="assets/instagram-svgrepo-com.svg" alt="our instagram">
+                </a>
+                <a href="#">
+                    <img class="w-8 h-8 hover:scale-110 m-5 duration-75 transition-all"
+                        src="assets/11053981_x_logo_twitter_new_brand_icon.svg" alt="our x">
+                </a>
+                <a href="#">
+                    <img class="w-8 h-8 hover:scale-110 m-5 duration-75 transition-all"
+                        src="assets/11001954_threads_logo_brand_sign_contained_icon.svg" alt="our threads">
+                </a>
+                <a href="#">
+                    <img class="w-8 h-8 hover:scale-110 m-5 duration-75 transition-all"
+                        src="assets/8598124_tiktok_social media_digitalmarketing_share_icon.svg" alt="our tiktok">
+                </a>
+                <a href="#">
+                    <img class="w-8 h-8 hover:scale-110 m-5 duration-75 transition-all"
+                        src="assets/InBug-Black.png" alt="our linkedin">
+                </a>
+                <div class="invisible md:visible mt-10">
+                    <p class="rotate-10 text-1xl flowing-text font-bold">Flow Around</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-span-full text-center text-slate-800 dark:text-slate-300">
+            <p>© 2025 Shafii. All rights reserved. Designed for those who move with purpose.</p>
+        </div>
+        <div class="col-span-full border-t-1 border-slate-700 mt-5 flex justify-center">
+            <a href="https://github.com/G-60" target="_blank" noreferrer>
+                <img class="w-8 h-8 m-5 duration-75 transition-all hover:scale-115" src="assets/github-mark-white.svg"
+                    alt="my github">
+            </a>
+            <a href="https://www.linkedin.com/in/murad-salem-cys/" target="_blank" noreferrer>
+                <img class="w-8 h-8 m-5 duration-75 transition-all hover:scale-115" src="assets/InBug-White.png"
+                    alt="my linkedin">
+            </a>
+        </div>
+        <p class="text-center col-span-full text-slate-800 dark:text-slate-300"><strong>Disclaimer:</strong> This website was created for practice and educational purposes only.
+        All products, brand names, and content displayed on this site are fictional and not intended for
+        commercial use.
+        Any resemblance to real businesses or entities is purely coincidental.
+        No products or services are actually offered through this website.</p>
+    </footer>
+    <script>
+        // some js for the menu btn
+        const menuBtn = document.getElementById('menu-btn');
+        const navMenu = document.getElementById('navbar-solid-bg');
+        menuBtn.addEventListener('click', () => {
+        navMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
